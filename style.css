@@ -1,0 +1,309 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%; /* Replace 100vw with 100% */
+}
+footer {
+    width: 100%; /* Replace 100vw with 100% */
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+.logo {
+    border-radius: 50%;
+    width: 200px; /* Set a width */
+    height: 200px; /* Set a height */
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: linear-gradient(to bottom, #000000, #006593);
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100vw;
+    overflow: hidden;
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    margin: 0; /* Removes any default margin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+header ul li {
+    display: inline-block;
+      padding: 12px 24px;
+      font-weight: 600;
+      color: white;
+      background-color: #111827;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+}
+
+header ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white;
+}
+
+header ul li:hover {
+    background-color: #e6b000; /* Changes background color on hover */
+    transition: background-color 0.3s; /* Adds a transition effect for hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.info-container-1 {
+    border-radius: 30px;
+    background-color: #e6b000;
+    padding: 20px;
+    color: whitesmoke;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    width: fit-content;
+    font-size: large;
+}
+.info-container-2 {
+    border-radius: 30px;
+    background-color: #00789c;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    font-size: large;
+}
+.info-container-3 {
+    border-radius: 30px;
+    background-color: #ee3368;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    font-size: large;
+}
+.info-container-4 {
+    border-radius: 30px;
+    background-color: #1b89ff;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    font-size: large;
+}
+.info-container-5 {
+    border-radius: 30px;
+    background-color: #fa9120;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    font-size: large;
+}
+
+
+section {
+    padding-top: 20px;
+}
+
+.for-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+footer {
+    background-color: #00789c;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    margin: 0; /* Removes any default margin */
+    margin-top: 35px;
+}
+
+#collage {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+.collage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+#collage-image {
+    width: 30vw; /* Adjust image size */
+    height: auto;
+    border-radius: 20px;
+    transition: opacity 0.5s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.nav-button {
+    background-color: #006593;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%; /* Makes the button circular */
+    cursor: pointer;
+    font-size: 20px; /* Increases arrow size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: -60px;
+    z-index: 2;
+}
+
+.nav-button:hover {
+    background-color: #d8d100;
+}
+
+#home, #about, #contratacion, #ubicacion {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    margin: 0 auto; /* Centers the container horizontally */
+    height: 100%; /* Ensures it takes up the full height of the parent */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+    padding: 0 10px 10px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}
+
+#ubicacion {
+    font-size: 1rem;
+}
+
+
+
+iframe {
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    margin: 0 auto; /* Centers the container horizontally */
+    height: 100%;
+    margin-top: 17px;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
+    background-color: #006593;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 600px) {
+    #collage-image {
+        width: 90vw; /* Adjust image size */
+        height: auto;
+        transition: opacity 0.5s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    iframe {
+        border-radius: 20px;
+        width: 85vw;
+    }
+    header ul {
+        display: flex; /* Makes the list items appear in a row */
+        list-style: none;
+        justify-content: space-around; /* Distributes items evenly with space around */
+        padding: 0;
+        margin-bottom: 15px;
+        overflow: hidden; /* Ensures no overflow */
+        width: 90%; /* Ensures the list spans the full width of the header */
+        box-sizing: border-box; /* Includes padding in width calculation */
+    }
+    header ul li {
+        flex: 1; /* Ensures each item takes up equal space */
+        padding: 10px 5px; /* Adjust padding for better fit */
+        font-weight: 600;
+        color: white;
+        background-color: #111827;
+        border: none;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+        margin: 3px; /* Adds spacing between items */
+        text-align: center; /* Centers text inside the button */
+        box-sizing: border-box; /* Includes padding in the width calculation */
+    }
+    .for-row {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+    }
+    header {
+        padding: 10px;
+        margin: 0 0 0 0; /* Removes any default margin */
+        text-align: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box; /* Ensures padding is included in the element's width */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow-x: hidden;
+        display: block;
+        padding: env(safe-area-inset-top) 10px 10px 10px;
+        height: 100%;
+    }
+}
+
