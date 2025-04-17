@@ -79,7 +79,7 @@ header ul li {
 header ul li a {
     text-decoration: none; /* Removes underline from links */
     color: white;
-    font-size: small;
+    font-size: 1.2rem;
 }
 
 header ul li:hover {
