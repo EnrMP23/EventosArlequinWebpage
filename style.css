@@ -27,6 +27,7 @@ header {
 }
 footer {
     width: 100%; /* Replace 100vw with 100% */
+    color: white;
 }
 
 h1 {
