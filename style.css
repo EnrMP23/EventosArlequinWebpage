@@ -67,7 +67,7 @@ header {
 header ul li {
     display: inline-block;
       padding: 12px 24px;
-      font-weight: 500;
+      font-weight: 600;
       color: white;
       background-color: #111827;
       border: none;
@@ -79,6 +79,7 @@ header ul li {
 header ul li a {
     text-decoration: none; /* Removes underline from links */
     color: white;
+    font-size: medium;
 }
 
 header ul li:hover {
